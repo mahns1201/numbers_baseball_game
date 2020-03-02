@@ -4,6 +4,7 @@ import random
 END_COMMAND = '0'
 ANSWER_LENGTH = 3
 
+
 def strike(COMPUTER_ANSWER, USER_ANSWER):
     strike = 0
 
@@ -21,6 +22,7 @@ def strike(COMPUTER_ANSWER, USER_ANSWER):
 
 def ball(COMPUTER_ANSWER, USER_ANSWER):
     ball = 0
+    
     if COMPUTER_ANSWER[0] == USER_ANSWER[1] or COMPUTER_ANSWER[0] == USER_ANSWER[2]:  # 각각 다른자리 값 비교, 볼이면 1추가
         ball = ball + 1
 
