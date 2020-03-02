@@ -6,7 +6,7 @@
 1. The computer is going to select 3 non-duplicated numbers. you shuold find that COMPUTER's ANSWER. 
 2. Type 3 non-duplicated numbers. than the computer give you some HINT.
 
-                    *HINT is
+                    *HINT
                      If the array and value is same as COMPUTER's ANSWER, it is 1 strike.
                      If only value is same as COMPUTER's ANSWER not array, it is 1 ball.
                      If both is not, it will give you nothing.
